@@ -1,0 +1,30 @@
+{
+  "name": "ifabula",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "json2csv": "^5.0.7",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^3.0.0",
+    "passport": "^0.5.2",
+    "passport-http-bearer": "^1.0.1",
+    "pg": "^8.7.3",
+    "validator": "^13.7.0"
+  }
+}
